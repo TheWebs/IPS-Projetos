@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=newName\ newPosition\ numberParkingSpaces
+comment0.target=Garage(java.lang.String,\ Position,\ int)
+comment1.params=
+comment1.target=Garage()
+comment2.params=
+comment2.target=void\ sortParkingSpaces()
+comment3.params=
+comment3.target=void\ showInfo()
+comment4.params=truck\ number
+comment4.target=void\ parkTruck(Truck,\ int)
+comment5.params=number
+comment5.target=void\ removeTruck(int)
+comment6.params=number
+comment6.target=void\ inspectTruck(int)
+comment7.params=spotNumber\ newContainer
+comment7.target=void\ chageContainer(int,\ Container)
+comment8.params=
+comment8.target=void\ checkSpots()
+numComments=9

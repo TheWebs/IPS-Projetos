@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=newName\ newNumber\ newContainer\ newPosition
+comment0.target=Truck(java.lang.String,\ int,\ Container,\ Position)
+comment1.params=
+comment1.target=Truck()
+comment2.params=newPosition
+comment2.target=void\ moveTruck(Position)
+comment3.params=newContainer
+comment3.target=void\ loadTruck(Container)
+comment4.params=
+comment4.target=void\ unloadTruck()
+comment5.params=
+comment5.target=Container\ getContainer()
+comment6.params=
+comment6.target=Position\ getPosition()
+comment7.params=
+comment7.target=void\ inspect()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

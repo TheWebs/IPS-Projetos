@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=newLatitude\ newLongitude
+comment0.target=Position(double,\ double)
+comment1.params=
+comment1.target=Position()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=newLatitude\ newLongitude
+comment2.target=double\ getKilometersTo(double,\ double)
+comment3.params=newLatitude\ newLongitude
+comment3.target=boolean\ checkCoordinates(double,\ double)
+comment4.params=newPosition
+comment4.target=boolean\ isEqual(Position)
+comment5.params=
+comment5.target=double\ getLatitude()
+comment6.params=
+comment6.target=double\ getLongitude()
+comment7.params=
+comment7.target=java.lang.String\ getLatitudeNorteSul()
+comment8.params=
+comment8.target=java.lang.String\ getLongitudeNorteSul()
+comment9.params=
+comment9.target=void\ showInfo()
+numComments=11
