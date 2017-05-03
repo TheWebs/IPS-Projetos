@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=newName\ newPosition
+comment0.target=Store(java.lang.String,\ Position)
+comment1.params=
+comment1.target=Store()
+comment2.params=truck
+comment2.target=void\ unloadTruck(Truck)
+comment3.params=newName\ newQuantity
+comment3.target=void\ sellProduct(java.lang.String,\ int)
+comment4.params=
+comment4.target=Position\ getPosition()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=void\ showInfo()
+numComments=7

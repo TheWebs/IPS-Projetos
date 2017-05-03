@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ProductsInMarket()
+comment1.params=product
+comment1.target=void\ addProduct(Product)
+comment2.params=
+comment2.target=void\ getAllComercializedProducts()
+numComments=3

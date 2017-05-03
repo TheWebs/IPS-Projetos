@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=newName\ newPosition\ newProductsToSupply\ numberOfContainers
+comment0.target=DistributionStation(java.lang.String,\ Position,\ java.util.ArrayList,\ int)
+comment1.params=
+comment1.target=java.util.ArrayList\ getContainers()
+comment2.params=
+comment2.target=DistributionStation()
+comment3.params=truck\ container
+comment3.target=void\ loadTruck(Truck,\ Container)
+comment4.params=products\ containerNumber
+comment4.target=void\ loadContainer(java.util.ArrayList,\ int)
+comment5.params=product
+comment5.target=void\ receiveProducts(Product)
+comment6.params=
+comment6.target=Position\ getPosition()
+comment7.params=
+comment7.target=void\ showInfo()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

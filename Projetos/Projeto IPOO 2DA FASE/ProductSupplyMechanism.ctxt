@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=truck\ distributionStation\ store\ comeBack\ products
+comment0.target=ProductSupplyMechanism(Truck,\ DistributionStation,\ Store,\ boolean,\ java.util.ArrayList)
+comment1.params=
+comment1.target=void\ iniciateRoute()
+numComments=2

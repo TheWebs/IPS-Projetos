@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CentralTruckInformation()
+comment1.params=truck
+comment1.target=void\ addTruck(Truck)
+comment2.params=truck
+comment2.target=void\ removeTruck(Truck)
+comment3.params=
+comment3.target=void\ listTrucks()
+comment4.params=rad\ pos
+comment4.target=void\ listTrucksInRadius(int,\ Position)
+comment5.params=
+comment5.target=void\ checkTrucks()
+comment6.params=
+comment6.target=void\ countNewTrucks()
+comment7.params=
+comment7.target=void\ countOldTrucks()
+numComments=8

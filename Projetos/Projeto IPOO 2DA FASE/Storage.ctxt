@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=capacity\ products
+comment0.target=Storage(int,\ java.util.ArrayList)
+comment1.params=capacity
+comment1.target=Storage(int)
+comment2.params=
+comment2.target=Storage()
+comment3.params=lista
+comment3.target=void\ loadInicialProducts(java.util.ArrayList)
+comment4.params=name\ quantity
+comment4.target=boolean\ removeProduct(java.lang.String,\ int)
+comment5.params=name
+comment5.target=int\ checkForProductIndex(java.lang.String)
+comment6.params=quantity\ name
+comment6.target=void\ increaseQuantity(int,\ java.lang.String)
+comment7.params=produto
+comment7.target=void\ add(Product)
+comment8.params=name
+comment8.target=boolean\ checkForProduct(java.lang.String)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
