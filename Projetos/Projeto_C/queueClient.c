@@ -1,9 +1,9 @@
 /*
  * Implementacao em C do TAD Stack.
- * brunomnsilva 017
+ * brunomnsilva 2017
  */
 
-#include "queue.h"
+#include "queue2.h"
 #include <stdlib.h>
 
 struct qnode;
@@ -110,3 +110,4 @@ int queueIsEmpty(PtQueue queue) {
     
     return (queue->size == 0) ? 1 : 0;
 }
+

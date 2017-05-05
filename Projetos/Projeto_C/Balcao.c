@@ -3,6 +3,7 @@
 #include "Meal.h"
 #include "Prato.h"
 #include "Fila.h"
+#include "queue2.h"
 
 
 Balcao criarBalcao()
@@ -43,16 +44,23 @@ void removerCliente(Client client, Balcao balcao)
     printf("O cliente nao foi removido do balcao pois nao existe!\n");
 }
 
-/*void atualizarBalcao(Balcao balcao, Fila fila)
+void atualizarBalcao(Balcao balcao, Fila fila)
 {
+    Client c;
     while(balcao.lugaresVazios != 0)
     {
-        
         if(queueIsEmpty(fila.filas[0]) == 0)
         {
-            //adicionarCliente(fila.filas[0].head->elem)
+            queueDequeue2(fila.filas[0], &c);
+            adicionarCliente(c, balcao);
+            return;
         }
-    }
-    
-    
-}*/
+        if(queueIsEmpty(fila.filas[0]) == 0)
+        {
+            queueDequeue2(fila.filas[1], &c);
+            adicionarCliente(c, balcao);
+            return;
+        }
+        
+    }   
+}

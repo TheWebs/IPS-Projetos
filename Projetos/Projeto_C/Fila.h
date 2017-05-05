@@ -1,7 +1,7 @@
 
 #ifndef FILA_H
 #define FILA_H
-#include "queue.h"
+#include "queue2.h"
 
 typedef struct Fila{
     PtQueue filas[2];

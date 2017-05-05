@@ -44,6 +44,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Prato.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/operacoes.o \
+	${OBJECTDIR}/queueClient.o \
 	${OBJECTDIR}/queueMeal.o \
 	${OBJECTDIR}/stackPratos.o
 
@@ -116,6 +117,11 @@ ${OBJECTDIR}/operacoes.o: operacoes.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/operacoes.o operacoes.c
+
+${OBJECTDIR}/queueClient.o: queueClient.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/queueClient.o queueClient.c
 
 ${OBJECTDIR}/queueMeal.o: queueMeal.c
 	${MKDIR} -p ${OBJECTDIR}

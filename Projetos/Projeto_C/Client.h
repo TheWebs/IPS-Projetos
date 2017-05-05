@@ -4,15 +4,15 @@
  *
  * Created on 12 de Abril de 2017, 15:47
  */
+#ifndef CLIENT_H
+#define	CLIENT_H
+
 #include "stack.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "Data.h"
 #include "queue.h"
-
-#ifndef CLIENT_H
-#define	CLIENT_H
-
 
 typedef struct Client {
     int id;
@@ -30,8 +30,10 @@ typedef struct ListaClientes {
 
 Client createClient(int id, char *name, char *surname, int age);
 ListaClientes leClientesDeFicheiro();
+
 void imprimeCliente(Client cliente);
 int getNumberLines();
+void atualizarPontos(Data data, Client cliente);
 
 
 #endif	/* CLIENT_H */

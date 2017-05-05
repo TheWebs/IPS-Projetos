@@ -4,6 +4,9 @@
 #include <string.h>
 #include "stack.h"
 #include "Biblioteca.h"
+#include "Meal.h"
+#include "queue2.h"
+#include "Balcao.h"
 
 Client createClient(int id, char *name, char *surname, int age)
 {
@@ -25,6 +28,26 @@ void imprimeCliente(Client cliente)
 {
         printf("Numero: %d\nNome: %s\nApelido: %s\nIdade: %d\nPontos: %d\n", cliente.id, cliente.name, cliente.surname, cliente.age, cliente.pontos);
 }
+
+void atualizarPontos(Data data, Client cliente)
+{
+    Meal meal;
+    while(queueIsEmpty(cliente.refeicoes) == 0)
+    {
+        queuePeek(cliente.refeicoes, &meal);
+        if(checkData(data, meal.data))
+        {
+              queueDequeue(cliente.refeicoes, &meal);
+              cliente.pontos += meal.valor;
+        }
+        else
+        {
+            return;
+        }
+
+    }
+}
+
 
 ListaClientes leClientesDeFicheiro()
 {

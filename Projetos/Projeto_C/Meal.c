@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 
+
 Meal criarMeal(Data data, PtStack pratos, double valor)
 {
     Meal meal;
@@ -16,7 +17,20 @@ Meal criarMeal(Data data, PtStack pratos, double valor)
         stackPush(meal.pratos, prato);
         meal.valor += prato.preco;
     }
+    meal.estado = ABERTA;
     
+}
+
+
+void adicionarPrato(Meal meal, Prato prato)
+{
+    stackPush(meal.pratos, &prato);
+    meal.valor += prato.preco;
+}
+
+void fecharMeal(Meal meal)
+{
+    meal.estado = FECHADA;
 }
 
 void imprimirMeal(Meal meal)
