@@ -1,0 +1,21 @@
+?Nova data: 25/04/2017
+Cliente 10 colocado ao balcão
+Cliente 7 colocado ao balcão
+Cliente 9 colocado ao balcão
+Refeição de cliente 10 (Teodoro Oliveira) iniciada a 25/04/2017
+Cliente 75 desconhecido
+Cliente 15 colocado ao balcão
+Cliente 14 em fila de espera
+Cliente 23 em fila de espera
+Cliente 32 em fila de espera
+3 clientes em fila de espera    
+	[23] Ambrosio Rita (63 anos)    
+	[14] Serafim Serafim (36 anos)    
+	[32] Daqui Letsgo (37 anos)
+Cliente 10 - Número de pontos inválido
+Cliente 10 finaliza refeição:
+	Desconto aplicado: 0€
+	Valor a pagar: 0€
+2 clientes em fila de espera
+	[14] Serafim Serafim (36 anos)
+	[32] Daqui Letsgo (37 anos)

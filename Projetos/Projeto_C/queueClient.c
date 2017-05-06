@@ -3,25 +3,25 @@
  * brunomnsilva 2017
  */
 
-#include "queue2.h"
+
 #include <stdlib.h>
+#include "queue2.h"
+struct qnode2;
+typedef struct qnode2 *PtQNode2;
 
-struct qnode;
-typedef struct qnode *PtQNode;
+typedef struct qnode2 {
+    QTypeElem2 elem;
+    PtQNode2 next;
+} QNode2;
 
-typedef struct qnode {
-    QTypeElem elem;
-    PtQNode next;
-} QNode;
-
-typedef struct queueImpl {
-    PtQNode head;
-    PtQNode tail;
+typedef struct queueImpl2 {
+    PtQNode2 head;
+    PtQNode2 tail;
     int size;
-} MyQueue;
+} MyQueue2;
 
-PtQueue queueCreate() {
-    PtQueue newQueue = (MyQueue*) malloc( sizeof(MyQueue) );
+PtQueue2 queueCreate2() {
+    PtQueue2 newQueue = (MyQueue2*) malloc( sizeof(MyQueue2) );
     
     if(newQueue == NULL) { return NULL; }
     
@@ -31,13 +31,13 @@ PtQueue queueCreate() {
     return newQueue;
 }
 
-int queueDestroy(PtQueue *ptQueue) {
-    PtQueue curQueue = (*ptQueue);
+int queueDestroy2(PtQueue2 *ptQueue) {
+    PtQueue2 curQueue = (*ptQueue);
     if(curQueue == NULL) { return QUEUE_NULL; }
     
-    QTypeElem aux;
+    QTypeElem2 aux;
     while(curQueue->size > 0) { /* explorar impl. de dequeue */
-        queueDequeue(curQueue, &aux);
+        queueDequeue2(curQueue, &aux);
     }
     
     free(curQueue); 
@@ -45,10 +45,10 @@ int queueDestroy(PtQueue *ptQueue) {
     return QUEUE_OK;
 }
 
-int queueEnqueue(PtQueue queue, QTypeElem elem) {
+int queueEnqueue2(PtQueue2 queue, QTypeElem2 elem) {
     if(queue == NULL) { return QUEUE_NULL; }
             
-    PtQNode newNode = (PtQNode) malloc( sizeof(QNode) );
+    PtQNode2 newNode = (PtQNode2) malloc( sizeof(QNode2) );
     if(newNode == NULL) {
         return QUEUE_NO_MEMORY;
     }
@@ -68,12 +68,12 @@ int queueEnqueue(PtQueue queue, QTypeElem elem) {
     return QUEUE_OK;
 }
 
-int queueDequeue(PtQueue queue, QTypeElem *ptElem) {
+int queueDequeue2(PtQueue2 queue, QTypeElem2 *ptElem) {
     if(queue == NULL) { return QUEUE_NULL; }
     if(queue->size <= 0) { return QUEUE_EMPTY; }
     
     /* removao da head (inicio da fila) */
-    PtQNode curHead = queue->head;
+    PtQNode2 curHead = queue->head;
     (*ptElem) = curHead->elem;
     
     queue->head = curHead->next; /* avancar ponteiro; pode ser NULL no caso abaixo */
@@ -88,24 +88,24 @@ int queueDequeue(PtQueue queue, QTypeElem *ptElem) {
     return QUEUE_OK;
 }
 
-int queuePeek(PtQueue queue, QTypeElem *ptElem) {
+int queuePeek2(PtQueue2 queue, QTypeElem2 *ptElem) {
     if(queue == NULL) { return QUEUE_NULL; }
     if(queue->size <= 0) { return QUEUE_EMPTY; }
     
     /* espreitar na head (inicio da fila) */
-    PtQNode curHead = queue->head;
+    PtQNode2 curHead = queue->head;
     (*ptElem) = curHead->elem;
     return QUEUE_OK;
 }
 
-int queueSize(PtQueue queue, int *ptSize) {
+int queueSize2(PtQueue2 queue, int *ptSize) {
     if(queue == NULL) { return QUEUE_NULL; }
     
     (*ptSize) = queue->size;
     return QUEUE_OK;
 }
 
-int queueIsEmpty(PtQueue queue) {
+int queueIsEmpty2(PtQueue2 queue) {
     if(queue == NULL) { return 1; } /* consideramos inexistente como vazia */
     
     return (queue->size == 0) ? 1 : 0;

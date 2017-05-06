@@ -1,0 +1,38 @@
+
+Nova data: 25/4/2017
+
+Cliente com o id 10 foi encontrado!
+
+Cliente com o id 7 foi encontrado!
+
+Cliente com o id 9 foi encontrado!
+
+Refeicao iniciada para o cliente com o id 10
+
+Nova data: 25/4/2017
+
+Cliente com o id 10 foi encontrado!
+
+Cliente com o id 7 foi encontrado!
+
+Cliente com o id 9 foi encontrado!
+
+Refeicao iniciada para o cliente com o id 10
+
+O cliente com o id 5 nao se encontra ao balcao
+
+Refeicao iniciada para o cliente com o id 9
+
+Refeicao iniciada para o cliente com o id 7
+
+Nao existe nenhum cliente com o id 75 !
+
+Cliente com o id 15 foi encontrado!
+
+Cliente com o id 14 foi encontrado!
+
+Cliente com o id 23 foi encontrado!
+
+Cliente com o id 32 foi encontrado!
+
+Refeicao iniciada para o cliente com o id 15

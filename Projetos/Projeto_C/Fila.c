@@ -1,24 +1,24 @@
-#include "Fila.h"
 #include "Client.h"
+#include "fila.h"
 
-Fila criarFila()
+void criarFilas(FilasEspera filas)
 {
-    Fila fila;
+   // FilasEspera filas;
     
-    fila.filas[0] = queueCreate2();
-    fila.filas[1] = queueCreate2();
+    filas[0] = queueCreate2();
+    filas[1] = queueCreate2();
     
-    return fila;
+    //return filas;
 }
 
-void adicionarCliente(Client cliente, Fila fila)
+void adicionarClienteAFila(Client cliente, FilasEspera filas)
 {
     if(cliente.age < 60)
     {
-        queueEnqueue2(fila.filas[0], cliente);
+        queueEnqueue2(filas[0], cliente);
     }
     else
     {
-         queueEnqueue2(fila.filas[1], cliente);
+         queueEnqueue2(filas[1], cliente);
     }
 }

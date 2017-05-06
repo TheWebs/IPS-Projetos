@@ -1,0 +1,119 @@
+Nova data: 25/04/2017
+Cliente 10 colocado ao balcão
+Cliente 10 (Teodoro Oliveira) com 0 pontos acumulados e 0 refeições no último mês
+Refeição de cliente 10 (Teodoro Oliveira) iniciada a 25/04/2017
+Cliente 10 empilha prato 23 (EbiNigiri)
+Cliente 10 empilha prato 3 (AvocadoMaki)
+Cliente 10 empilha prato 12 (SalmonNigiri)
+Cliente 10 empilha prato 6 (CaliforniaTemaki)
+Último consumo de cliente 10: prato 6 (CaliforniaTemaki)
+Cliente 10 devolve prato 6 (CaliforniaTemaki)
+Cliente 10 - Contagem de pratos: 3
+Cliente 23 não está ao balcão
+Cliente 10 finaliza refeição:
+    Prato 12 (roxo): SalmonNigiri 4€
+    Prato 3 (verde): AvocadoMaki 2.5€
+    Prato 23 (laranja): EbiNigiri 6€
+		Desconto aplicado: 0€
+                Valor a pagar: 12.5€
+Nova data: 27/04/2017
+Cliente 10 colocado ao balcão
+Cliente 10 (Teodoro Oliveira) com 0 pontos acumulados e 1 refeições no último mês
+Refeição de cliente 10 (Teodoro Oliveira) iniciada a 27/04/2017
+Cliente 10 não tem pratos empilhados
+Cliente 10 empilha prato 3 (AvocadoMaki)
+Cliente 10 empilha prato 12 (SalmonNigiri)
+Cliente 10 empilha prato 6 (CaliforniaTemaki)
+Cliente 10 empilha prato 1 (AlbacoreTunaNigiri)
+Cliente 10 empilha prato 18 (RollSelection)
+Cliente 10 empilha prato 14 (SabaNigiri)
+Cliente 10 empilha prato 11 (SalmonSashimi)
+Cliente 10 empilha prato 10 (DragonRoll)
+Cliente 10 empilha prato 26 (TunaSashimi)
+Cliente 10 - Contagem de pratos: 9
+Cliente 10 finaliza refeição:
+    Prato 26 (amarelo): TunaSashimi 7.5€
+    Prato 10 (laranja): DragonRoll 6€
+    Prato 11 (rosa): SalmonSashimi 4.5€
+    Prato 14 (roxo): SabaNigiri 4€
+    Prato 18 (cinza): RollSelection 5€
+    Prato 1 (roxo): AlbacoreTunaNigiri 4€
+    Prato 6 (roxo): CaliforniaTemaki 4€
+    Prato 12 (roxo): SalmonNigiri 4€
+    Prato 3 (verde): AvocadoMaki 2.5€
+		Desconto aplicado: 0€
+                Valor a pagar: 41.5€
+Nova data: 29/04/2017
+Cliente 10 colocado ao balcão
+Cliente 10 (Teodoro Oliveira) com 0 pontos acumulados e 2 refeições no último mês
+Refeição de cliente 10 (Teodoro Oliveira) iniciada a 29/04/2017
+Cliente 10 empilha prato 3 (AvocadoMaki)
+Cliente 10 empilha prato 12 (SalmonNigiri)
+Cliente 10 empilha prato 6 (CaliforniaTemaki)
+Cliente 10 empilha prato 1 (AlbacoreTunaNigiri)
+Cliente 10 empilha prato 18 (RollSelection)
+Cliente 10 empilha prato 14 (SabaNigiri)
+Cliente 10 empilha prato 11 (SalmonSashimi)
+Cliente 10 empilha prato 10 (DragonRoll)
+Cliente 10 empilha prato 26 (TunaSashimi)
+Cliente 10 empilha prato 20 (KaisoNigiri)
+Cliente 10 empilha prato 23 (EbiNigiri)
+Cliente 10 empilha prato 25 (TunaMaki)
+Cliente 10 - Contagem de pratos: 12
+Cliente 10 finaliza refeição:
+    Prato 25 (azul): TunaMaki 3€
+    Prato 23 (laranja): EbiNigiri 6€
+    Prato 20 (verde): KaisoNigiri 2.5€
+    Prato 26 (amarelo): TunaSashimi 7.5€
+    Prato 10 (laranja): DragonRoll 6€
+    Prato 11 (rosa): SalmonSashimi 4.5€
+    Prato 14 (roxo): SabaNigiri 4€
+    Prato 18 (cinza): RollSelection 5€
+    Prato 1 (roxo): AlbacoreTunaNigiri 4€
+    Prato 6 (roxo): CaliforniaTemaki 4€
+    Prato 12 (roxo): SalmonNigiri 4€
+    Prato 3 (verde): AvocadoMaki 2.5€
+		Desconto aplicado: 0€
+                Valor a pagar: 53.0€
+Nova data: 10/05/2017
+Cliente 10 colocado ao balcão
+Cliente 10 (Teodoro Oliveira) com 0 pontos acumulados e 3 refeições no último mês
+Refeição de cliente 10 (Teodoro Oliveira) iniciada a 10/05/2017
+Cliente 10 empilha prato 3 (AvocadoMaki)
+Cliente 10 empilha prato 12 (SalmonNigiri)
+Cliente 10 empilha prato 6 (CaliforniaTemaki)
+Cliente 10 empilha prato 1 (AlbacoreTunaNigiri)
+Cliente 10 empilha prato 18 (RollSelection)
+Cliente 10 empilha prato 14 (SabaNigiri)
+Cliente 10 empilha prato 11 (SalmonSashimi)
+Cliente 10 empilha prato 10 (DragonRoll)
+Cliente 10 empilha prato 17 (SalmonAndYuzuTartare)
+Cliente 10 - Contagem de pratos: 9
+Cliente 10 finaliza refeição:
+    Prato 17 (amarelo): SalmonAndYuzuTartare 7.5€
+    Prato 10 (laranja): DragonRoll 6€
+    Prato 11 (rosa): SalmonSashimi 4.5€
+    Prato 14 (roxo): SabaNigiri 4€
+    Prato 18 (cinza): RollSelection 5€
+    Prato 1 (roxo): AlbacoreTunaNigiri 4€
+    Prato 6 (roxo): CaliforniaTemaki 4€
+    Prato 12 (roxo): SalmonNigiri 4€
+    Prato 3 (verde): AvocadoMaki 2.5€
+		Desconto aplicado: 0€
+                Valor a pagar: 41.5€
+Nova data: 26/05/2017
+Cliente 10 (Teodoro Oliveira) com 12 pontos acumulados e 3 refeições no último mês
+Cliente 10 colocado ao balcão
+Refeição de cliente 10 (Teodoro Oliveira) iniciada a 26/05/2017
+Cliente 10 empilha prato 26 (TunaSashimi) 
+Cliente 10 empilha prato 19 (PopcornShrimp) 
+Cliente 10 empilha prato 10 (DragonRoll) 
+Cliente 10 empilha prato 8 (CucumberMaki) 
+Cliente 10 finaliza refeição:
+    Prato 8 (verde): CucumberMaki 2.5€
+    Prato 10 (roxo): DragonRoll 6€
+    Prato 19 (verde): PopcornShrimp 5€
+    Prato 26 (roxo): TunaSashimi 7.5€
+    		Desconto aplicado: 10€
+                Valor a pagar: 11.0€
+Cliente 10 (Teodoro Oliveira) com 2 pontos acumulados e 4 refeições no último mês

@@ -20,5 +20,6 @@ void imprimeData(Data data);
 //devolve 1 se a primeira data for mais recente 30 dias, 0 se for mais antiga
 int checkData(Data data1, Data data2); 
 
+
 #endif	/* DATA_H */
 

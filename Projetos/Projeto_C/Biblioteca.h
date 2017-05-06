@@ -17,6 +17,5 @@
 char** split(char *string, int nFields, const char *delim);
 int getNumberLines(char ficheiro[25]);
 
-
 #endif /* BIBLIOTECA_H */
 

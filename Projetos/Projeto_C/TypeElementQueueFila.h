@@ -3,7 +3,7 @@
 #define TYPEELEMENTQUEUEFILA_H
 #include "Client.h"
 
-    typedef Client QTypeElem;
+    typedef Client QTypeElem2;
 
 #endif /* TYPEELEMENTQUEUEFILA_H */
 

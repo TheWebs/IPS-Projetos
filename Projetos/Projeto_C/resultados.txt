@@ -1,0 +1,43 @@
+Nova data: 25/04/2017
+Cliente 10 colocado ao balcão
+Cliente 7 colocado ao balcão
+Cliente 9 colocado ao balcão
+Refeição de cliente 10 (Teodoro Oliveira) iniciada a 25/04/2017
+Cliente 5 não está ao balcão
+Refeição de cliente 9 (Marco Oliveira) iniciada a 25/04/2017
+Refeição de cliente 7 (Amelia Oliveira) iniciada a 25/04/2017
+Cliente 10 empilha prato 3 (AvocadoMaki)
+Cliente 10 empilha prato 12 (SalmonNigiri)
+Cliente 9 empilha prato 3 (AvocadoMaki)
+Cliente 75 desconhecido
+Cliente 15 colocado ao balcão
+Cliente 14 em fila de espera
+Cliente 7 empilha prato 15 (SalmonAndAvocadoTemaki)
+Cliente 23 em fila de espera
+Cliente 32 em fila de espera
+Cliente 10 empilha prato 6 (CaliforniaTemaki)
+Refeição de cliente 15 (Ines Alves) iniciada a 25/04/2017
+Cliente 15 empilha prato 14 (SabaNigiri)
+Cliente 15 empilha prato 22 (EbiRoll)
+Cliente 15 empilha prato 26 (TunaSashimi)
+Último consumo de cliente 10: prato 6 (CaliforniaTemaki)
+Cliente 15 devolve prato 26 (TunaSashimi)
+Cliente 10 - Contagem de pratos: 3
+Cliente 15 - Contagem de pratos: 2
+Cliente 23 não está ao balcão
+Cliente 9 - Contagem de pratos: 1
+Cliente 10 (Teodoro Oliveira) com 0 pontos acumulados e 0 refeições no último mês
+3 clientes em fila de espera    
+	[23] Ambrosio Rita (63 anos)
+	[14] Serafim Serafim (36 anos)
+	[32] Daqui Letsgo (37 anos)
+Cliente 10 - Número de pontos inválido
+Cliente 10 finaliza refeição:
+	Prato 6 (roxo): CaliforniaTemaki 4€    
+	Prato 12 (roxo): SalmonNigiri 4€    
+	Prato 3 (verde): AvocadoMaki 2.5€		
+		Desconto aplicado: 0€
+		Valor a pagar: 10.5€
+2 clientes em fila de espera    
+	[14] Serafim Serafim (36 anos)
+	[32] Daqui Letsgo (37 anos)

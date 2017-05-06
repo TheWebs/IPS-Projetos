@@ -11,7 +11,7 @@ typedef struct{
 
 typedef struct ListaPratos{
         int contagem;
-    Prato *pratos;
+        Prato *pratos;
 }ListaPratos;
 
 Prato criaPrato(char *nomePeca, char *corPrato, double preco, int calorias);

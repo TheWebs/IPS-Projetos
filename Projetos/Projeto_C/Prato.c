@@ -26,7 +26,6 @@ void imprimePrato (Prato prato){
 }
 
 ListaPratos lePratosDeFicheiro() {
-    ListaPratos lePratosDeFicheiro() {
     ListaPratos listaPratos;
     char linha[100];
     //char** tokens;
@@ -45,13 +44,14 @@ ListaPratos lePratosDeFicheiro() {
         fscanf(f, "%d", &numeroPrato);
         fscanf(f, "%s", nomePeca);
         fscanf(f, "%lf", &preco);
-        fscanf(f, "%s\n", corPrato);       
+        fscanf(f, "%s", corPrato);       
         listaPratos.pratos[i] = criaPrato(nomePeca, corPrato, preco, numeroPrato);
+        //imprimePrato(listaPratos.pratos[i]);
         i++;
     } while (feof(f) == 0);
    
     fclose(f);
     return listaPratos;
 }
-}
+
 

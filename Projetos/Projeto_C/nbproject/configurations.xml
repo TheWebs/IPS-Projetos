@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="100">
+<configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
@@ -8,10 +8,10 @@
       <itemPath>Biblioteca.h</itemPath>
       <itemPath>Client.h</itemPath>
       <itemPath>Data.h</itemPath>
-      <itemPath>Fila.h</itemPath>
       <itemPath>Meal.h</itemPath>
       <itemPath>Prato.h</itemPath>
       <itemPath>TypeElementQueueFila.h</itemPath>
+      <itemPath>fila.h</itemPath>
       <itemPath>operacoes.h</itemPath>
       <itemPath>queue.h</itemPath>
       <itemPath>queue2.h</itemPath>
@@ -22,7 +22,14 @@
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
+      <itemPath>clientes.txt</itemPath>
+      <itemPath>operacoes.txt</itemPath>
+      <itemPath>operacoes2.txt</itemPath>
+      <itemPath>operacoes3.txt</itemPath>
       <itemPath>pratos.txt</itemPath>
+      <itemPath>resultados.txt</itemPath>
+      <itemPath>resultados2.txt</itemPath>
+      <itemPath>resultados3.txt</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -80,8 +87,6 @@
       </item>
       <item path="Fila.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="Fila.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="Meal.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Meal.h" ex="false" tool="3" flavor2="0">
@@ -92,11 +97,21 @@
       </item>
       <item path="TypeElementQueueFila.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="clientes.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fila.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="operacoes.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="operacoes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operacoes.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operacoes2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operacoes3.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="pratos.txt" ex="false" tool="3" flavor2="0">
       </item>
@@ -109,6 +124,12 @@
       <item path="queueMeal.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="queueTypeElement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resultados.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resultados2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resultados3.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="stack.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -155,8 +176,6 @@
       </item>
       <item path="Fila.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="Fila.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="Meal.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Meal.h" ex="false" tool="3" flavor2="0">
@@ -167,11 +186,21 @@
       </item>
       <item path="TypeElementQueueFila.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="clientes.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fila.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="operacoes.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="operacoes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operacoes.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operacoes2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="operacoes3.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="pratos.txt" ex="false" tool="3" flavor2="0">
       </item>
@@ -184,6 +213,12 @@
       <item path="queueMeal.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="queueTypeElement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resultados.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resultados2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resultados3.txt" ex="false" tool="3" flavor2="0">
       </item>
       <item path="stack.h" ex="false" tool="3" flavor2="0">
       </item>

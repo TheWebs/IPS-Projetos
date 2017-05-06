@@ -24,7 +24,7 @@ Meal criarMeal(Data data, PtStack pratos, double valor)
 
 void adicionarPrato(Meal meal, Prato prato)
 {
-    stackPush(meal.pratos, &prato);
+    stackPush(meal.pratos, prato);
     meal.valor += prato.preco;
 }
 

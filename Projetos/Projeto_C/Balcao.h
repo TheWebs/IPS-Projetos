@@ -14,15 +14,17 @@
 #ifndef BALCAO_H
 #define BALCAO_H
 #include "Client.h"
+#include "fila.h"
 
 typedef struct Balcao {
     Client clientes[4];
     int lugaresVazios;
 }Balcao;
 
-void adicionarCliente(Client client, Balcao balcao);
+void adicionarCliente(Client client, Balcao *balcao);
 void removerCliente(Client client, Balcao balcao);
-//oid atualizarBalcao(Balcao balcao);
+Balcao criarBalcao();
+void atualizarBalcao(Balcao *balcao, FilasEspera filas);
 
 #endif /* BALCAO_H */
 
