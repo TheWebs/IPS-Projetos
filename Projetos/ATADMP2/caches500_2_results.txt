@@ -1,0 +1,99 @@
+GEOCACHING> load
+	Nome do ficheiro?: caches500_2.csv
+	Foram importadas 500 caches...
+
+GEOCACHING> founds
+	Total 'Founds'     = 203153
+	Total 'Not Founds' = 7982
+
+GEOCACHING> total
+	Total de caches   = 500
+	Total 'Enabled'   = 484
+	Total 'Disabled'  = 16
+
+GEOCACHING> dates
+	Cache mais recente: 
+	Code: GC17AKM | Name: Forte do Cavalo - Farois de Portugal | Altitude: 8 | Date: 2007/11/10
+
+	Cache cmais antiga: 
+	Code: GC1C89 | Name: A Praia e o Rio [Ericeira] | Altitude: 61 | Date: 2001/09/11
+
+GEOCACHING> altitudes
+	Cache com altitude mais elevada: 
+	Code: GCGQQ5 | Name: Up, up, up ! | Altitude: 1987 | Date: 2003/08/24
+
+	Cache com altitude mais baixa: 
+	Code: GCZ84D | Name: Albandeira [Lagoa] | Altitude: 0 | Date: 2006/10/29
+
+GEOCACHING> closest
+	Altitude pretendida?: 500
+	Cache com altitude mais próxima: 
+	Code: GC13D90 | Name: Cruziana [Penha Garcia] | Altitude: 500 | Date: 2007/06/04
+
+GEOCACHING> center
+	Latitude  Média    = 39.59518 +/- 1.58755
+	Longitude Média    = -8.65229 +/- 1.65257
+
+GEOCACHING> matrix81
+      1.0  1.5  2.0  2.5  3.0  3.5  4.0  4.5  5.0 
+      -------------------------------------------
+1.0 |  16   22   13    3    5    1    0    0    0 
+1.5 |  13   62   33   14    5    1    3    0    0 
+2.0 |  12   33   53   26   39   14   10    2    0 
+2.5 |   3   14   13    9    6    5    1    1    0 
+3.0 |   2    5    9    7   11    3    1    1    2 
+3.5 |   0    3    3    2    1    4    2    1    1 
+4.0 |   0    1    0    0    0    3    5    1    0 
+4.5 |   0    0    0    0    0    0    0    0    0 
+5.0 |   0    0    0    0    0    0    0    0    0 
+
+GEOCACHING> search
+	Codigo da cache?: GCY503
+	Code: GCY503 | Name: Navarone's Fortress [Trafaria]
+	Status: AVAILABLE 
+	Owner: B.O.D.A. 
+	Location:
+		State: SETUBAL 
+		Latitude: 38.659617 | Longitude: -9.234283 
+	Difficulty: 2.0 | Terrain: 2.5 
+	Kind: MULTI | Size: REGULAR 
+	Founds: 390 | Not Founds: 19 | Favourites: 86 
+	Status: AVAILABLE 
+
+GEOCACHING> top10
+	Code: GC12CRJ | Name: The End of the World [Sagres] | Founds: 3761
+	Code: GC16J8A | Name: Mosteiro de Santa Clara a Velha | Founds: 2574
+	Code: GCWMCG | Name: Fortaleza de Santa Catarina [Portimao] | Founds: 2393
+	Code: GCGQQ5 | Name: Up, up, up ! | Founds: 2227
+	Code: GC16Q0V | Name: Capela dos Ossos (Evora) | Founds: 2114
+	Code: GCQ7HK | Name: O Ascensor da Gloria / The Glory Funicular | Founds: 2088
+	Code: GCPX7M | Name: Passagem para a liberdade [Vilamoura] | Founds: 2016
+	Code: GCV4H1 | Name: Era uma vez... no Jardim da Sereia | Founds: 1934
+	Code: GCQ7QE | Name: O Ascensor do Lavra / The Lavra Funicular | Founds: 1853
+	Code: GC12RXH | Name: Funchal Walkabout | Founds: 1823
+
+GEOCACHING> states
+	State: LISBOA                                                        | Caches: 100
+	State: FARO                                                          | Caches: 52
+	State: BRAGA                                                         | Caches: 44
+	State: PORTO                                                         | Caches: 39
+	State: SETUBAL                                                       | Caches: 34
+	State: LEIRIA                                                        | Caches: 33
+	State: SANTAREM                                                      | Caches: 29
+	State: VISEU                                                         | Caches: 20
+	State: COIMBRA                                                       | Caches: 20
+	State: VILA REAL                                                     | Caches: 19
+	State: VIANA DO CASTELO                                              | Caches: 15
+	State: GUARDA                                                        | Caches: 15
+	State: AVEIRO                                                        | Caches: 15
+	State: PORTALEGRE                                                    | Caches: 14
+	State: EVORA                                                         | Caches: 14
+	State: CASTELO BRANCO                                                | Caches: 10
+	State: BRAGANCA                                                      | Caches: 10
+	State: BEJA                                                          | Caches: 9
+	State: ARQUIPELAGO DA MADEIRA                                        | Caches: 5
+	State: ARQUIPELAGO DOS ACORES                                        | Caches: 3
+
+GEOCACHING> quit
+	Programa terminado...
+RUN FINISHED; exit value 0; real time: 49s; user: 0ms; system: 30ms

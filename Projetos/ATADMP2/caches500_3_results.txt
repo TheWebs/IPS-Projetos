@@ -1,0 +1,102 @@
+GEOCACHING> load
+	Nome do ficheiro?: caches500_3.csv
+	Foram importadas 500 caches...
+
+GEOCACHING> founds
+	Total 'Founds'     = 197313
+	Total 'Not Founds' = 7528
+
+GEOCACHING> total
+	Total de caches   = 500
+	Total 'Enabled'   = 482
+	Total 'Disabled'  = 18
+
+GEOCACHING> dates
+	Cache mais recente: 
+	Code: GC17AKM | Name: Forte do Cavalo - Farois de Portugal | Altitude: 8 | Date: 2007/11/10
+
+	Cache cmais antiga: 
+	Code: GC8EF9 | Name: AZGTJ - Translant Chess Cache | Altitude: -9999999 | Date: 2001/05/15
+
+GEOCACHING> altitudes
+	Cache com altitude mais elevada: 
+	Code: GCK1JY | Name: Atlantis [Pico] | Altitude: 2286 | Date: 2004/07/20
+
+	Cache com altitude mais baixa: 
+	Code: GCRE96 | Name: BH19 Scene from above [Portugal...] | Altitude: 0 | Date: 2005/11/23
+
+GEOCACHING> closest
+	Altitude pretendida?: 200
+	Cache com altitude mais próxima: 
+	Code: GC13B9B | Name: The Electro Box | Altitude: 195 | Date: 2007/06/01
+
+GEOCACHING> center
+	Latitude  Média    = 39.58549 +/- 1.59124
+	Longitude Média    = -8.77290 +/- 2.44432
+
+GEOCACHING> matrix81
+      1.0  1.5  2.0  2.5  3.0  3.5  4.0  4.5  5.0 
+      -------------------------------------------
+1.0 |  20   12   12    2    4    1    0    3    0 
+1.5 |   9   58   34   17   15    4    3    0    0 
+2.0 |  15   27   45   27   36   11    9    4    0 
+2.5 |   4   11   16   11    9    3    4    3    0 
+3.0 |   3    8    4    8   10    3    5    1    1 
+3.5 |   1    1    3    3    0    1    3    1    1 
+4.0 |   0    2    1    0    0    3    3    1    1 
+4.5 |   0    0    0    0    0    1    0    0    0 
+5.0 |   0    0    0    0    0    0    0    0    2 
+
+GEOCACHING> search
+	Codigo da cache?: GCK1JY
+	Code: GCK1JY | Name: Atlantis [Pico]
+	Status: AVAILABLE 
+	Owner: Joao&Olivia 
+	Location:
+		State: ARQUIPELAGO DOS ACORES 
+		Latitude: 38.468917 | Longitude: -28.399400 
+	Difficulty: 2.0 | Terrain: 4.5 
+	Kind: TRADITIONAL | Size: REGULAR 
+	Founds: 196 | Not Founds: 25 | Favourites: 48 
+	Status: AVAILABLE 
+
+GEOCACHING> top1'
+Comando não encontrado.
+
+GEOCACHING> top10
+	Code: GCZWBV | Name: Catedral [Cristianismo] | Founds: 3494
+	Code: GCRTHY | Name: Ponta da Piedade - Lagos | Founds: 2734
+	Code: GC513F | Name: A great view of Lisbon [Lisboa] | Founds: 2612
+	Code: GC16J8A | Name: Mosteiro de Santa Clara a Velha | Founds: 2574
+	Code: GCW620 | Name: Castelo [Alusbona] | Founds: 2567
+	Code: GC16AY7 | Name: Funicular dos Guindais | Founds: 2402
+	Code: GCGC2H | Name: Alemanha em Fatima[Leiria] | Founds: 2300
+	Code: GCQNA5 | Name: Penedo da Saudade [Coimbra] | Founds: 2254
+	Code: GC10YKD | Name: Vasco da Gama [Lisboa] | Founds: 2150
+	Code: GC16QCW | Name: The Secret | Founds: 2091
+
+GEOCACHING> states
+	State: LISBOA                                                        | Caches: 94
+	State: FARO                                                          | Caches: 44
+	State: PORTO                                                         | Caches: 39
+	State: BRAGA                                                         | Caches: 39
+	State: SETUBAL                                                       | Caches: 35
+	State: LEIRIA                                                        | Caches: 33
+	State: SANTAREM                                                      | Caches: 32
+	State: COIMBRA                                                       | Caches: 21
+	State: VILA REAL                                                     | Caches: 20
+	State: VISEU                                                         | Caches: 19
+	State: BEJA                                                          | Caches: 19
+	State: VIANA DO CASTELO                                              | Caches: 17
+	State: PORTALEGRE                                                    | Caches: 16
+	State: GUARDA                                                        | Caches: 15
+	State: AVEIRO                                                        | Caches: 14
+	State: EVORA                                                         | Caches: 12
+	State: BRAGANCA                                                      | Caches: 12
+	State: CASTELO BRANCO                                                | Caches: 8
+	State: ARQUIPELAGO DOS ACORES                                        | Caches: 6
+	State: ARQUIPELAGO DA MADEIRA                                        | Caches: 5
+
+GEOCACHING> quit
+	Programa terminado...
+RUN FINISHED; exit value 0; real time: 54s; user: 0ms; system: 30ms

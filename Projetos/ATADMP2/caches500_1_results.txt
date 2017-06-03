@@ -1,0 +1,115 @@
+GEOCACHING> load
+	Nome do ficheiro?: caches500_1.csv
+	Foram importadas 500 caches...
+
+GEOCACHING> founds
+	Total 'Founds'     = 212187
+	Total 'Not Founds' = 8974
+
+GEOCACHING> total
+	Total de caches   = 500
+	Total 'Enabled'   = 482
+	Total 'Disabled'  = 18
+
+GEOCACHING> dates
+	Cache mais recente: 
+	Code: GC17AKM | Name: Forte do Cavalo - Farois de Portugal | Altitude: 8 | Date: 2007/11/10
+
+	Cache cmais antiga: 
+	Code: GC11BE | Name: LIS Spotter's Place | Altitude: 117 | Date: 2001/07/21
+
+GEOCACHING> altitudes
+	Cache com altitude mais elevada: 
+	Code: GCVVZH | Name: Expedicao Scientifica a Serra da Estrella | Altitude: 1838 | Date: 2006/04/25
+
+	Cache com altitude mais baixa: 
+	Code: GCZ84D | Name: Albandeira [Lagoa] | Altitude: 0 | Date: 2006/10/29
+
+GEOCACHING> closest
+	Altitude pretendida?: 3000
+	Cache com altitude mais próxima: 
+	Code: GCVVZH | Name: Expedicao Scientifica a Serra da Estrella | Altitude: 1838 | Date: 2006/04/25
+
+GEOCACHING> closest
+	Altitude pretendida?: -9999999
+	Cache com altitude mais próxima: 
+	Code: GCZ84D | Name: Albandeira [Lagoa] | Altitude: 0 | Date: 2006/10/29
+
+GEOCACHING> center
+	Latitude  Média    = 39.59160 +/- 1.59259
+	Longitude Média    = -8.75456 +/- 2.35153
+
+GEOCACHING> matrix81
+      1.0  1.5  2.0  2.5  3.0  3.5  4.0  4.5  5.0 
+      -------------------------------------------
+1.0 |  17   17    9    2    3    1    0    2    0 
+1.5 |  10   60   30   19   11    4    1    1    0 
+2.0 |  14   29   54   28   25   11   10    4    1 
+2.5 |   3   11   13   11   10    3    4    0    0 
+3.0 |   3    6   11    9    8    3    3    1    2 
+3.5 |   2    4    3    3    2    2    4    2    2 
+4.0 |   0    2    0    0    0    3    3    2    0 
+4.5 |   0    0    0    0    0    1    0    0    0 
+5.0 |   0    0    0    0    0    0    0    0    1 
+
+GEOCACHING> search
+	Codigo da cache?: GCZ84D
+	Code: GCZ84D | Name: Albandeira [Lagoa]
+	Status: AVAILABLE 
+	Owner: prodrive 
+	Location:
+		State: FARO 
+		Latitude: 37.090400 | Longitude: -8.400617 
+	Difficulty: 1.0 | Terrain: 1.5 
+	Kind: TRADITIONAL | Size: REGULAR 
+	Founds: 1112 | Not Founds: 25 | Favourites: 59 
+	Status: AVAILABLE 
+
+GEOCACHING> search
+	Codigo da cache?: GCZ84X
+	Cache nao encontrada.
+
+GEOCACHING> top10
+	Code: GC8C23 | Name: Picture your Flag [Lisboa] | Founds: 3821
+	Code: GC12CRJ | Name: The End of the World [Sagres] | Founds: 3761
+	Code: GCMR9D | Name: BH12 Miradouro de Sao Pedro de Alcantara [Lisboa] | Founds: 2642
+	Code: GC513F | Name: A great view of Lisbon [Lisboa] | Founds: 2612
+	Code: GC16AY7 | Name: Funicular dos Guindais | Founds: 2402
+	Code: GC16Q0V | Name: Capela dos Ossos (Evora) | Founds: 2114
+	Code: GCTZTA | Name: Judiaria [Lisboa Medieval] | Founds: 2112
+	Code: GC16QCW | Name: The Secret | Founds: 2091
+	Code: GCPX7M | Name: Passagem para a liberdade [Vilamoura] | Founds: 2016
+	Code: GC16F1A | Name: OASIS | Founds: 1990
+
+GEOCACHING> states
+	State: LISBOA                                                        | Caches: 91
+	State: FARO                                                          | Caches: 52
+	State: PORTO                                                         | Caches: 49
+	State: SETUBAL                                                       | Caches: 38
+	State: LEIRIA                                                        | Caches: 37
+	State: BRAGA                                                         | Caches: 37
+	State: SANTAREM                                                      | Caches: 25
+	State: VISEU                                                         | Caches: 18
+	State: COIMBRA                                                       | Caches: 18
+	State: VILA REAL                                                     | Caches: 17
+	State: VIANA DO CASTELO                                              | Caches: 17
+	State: GUARDA                                                        | Caches: 17
+	State: PORTALEGRE                                                    | Caches: 15
+	State: CASTELO BRANCO                                                | Caches: 14
+	State: BRAGANCA                                                      | Caches: 13
+	State: BEJA                                                          | Caches: 12
+	State: AVEIRO                                                        | Caches: 11
+	State: EVORA                                                         | Caches: 8
+	State: ARQUIPELAGO DOS ACORES                                        | Caches: 6
+	State: ARQUIPELAGO DA MADEIRA                                        | Caches: 5
+
+GEOCACHING> load
+	Nome do ficheiro?: file.csv
+	Ficheiro nao existe...
+
+GEOCACHING> states
+	Nao existem caches!
+
+GEOCACHING> quit
+	Programa terminado...
+RUN FINISHED; exit value 0; real time: 1m 48s; user: 0ms; system: 30ms
